@@ -1,0 +1,70 @@
+div.rating_bar {
+    position: relative;
+    width: 100%;
+    min-width: 250px;
+    height: 40px;
+    background-color: rgb(163, 163, 163);
+    border-radius: 5px;
+}
+
+div.rating_progress {
+    width: 100px;
+    height: 40px;
+    background-color: rgb(154, 201, 100);
+    border-radius: 5px 0 0 5px;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 40px;
+}
+
+div.rating_change {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    top: 0px;
+    right: 0px;
+}
+
+div.rating_minus {
+    position: absolute;
+    background-color: rgb(154, 201, 100);
+    color: white;
+    width: 30px;
+    height: 30px;
+    bottom: 5px;
+    right: 5px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 1.5em;
+    box-shadow: 0 0 5px 0px rgb(90, 90, 90);
+}
+
+div.rating_delta {
+    position: absolute;
+    color: white;
+    width: 150px;
+    height: 40px;
+    bottom: 0px;
+    right: 0px;
+    text-align: center;
+    line-height: 40px;
+}
+
+div.rating_plus {
+    position: absolute;
+    background-color: rgb(201, 86, 57);
+    color: white;
+    width: 30px;
+    height: 30px;
+    bottom: 5px;
+    right: 115px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 900;
+    line-height: 30px;
+    font-size: 1.5em;
+    box-shadow: 0 0 5px 0px rgb(90, 90, 90);
+}
